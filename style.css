@@ -1,0 +1,151 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 480px;
+    padding: 5px; 
+    
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+.logoimg{
+     margin-top: 1%;
+     margin-left: 1%;
+     float:inherit;
+     width: 5%;
+     height: auto;
+}
+.titulo{
+    float: inherit;
+    margin-left: 20%;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:unset;
+    text-align: center;
+}
+
+.izquierdo{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+   
+}
+.derecho{
+    float: right;
+    width: 30%;
+    height: 70%;
+    border-radius: 24px;
+}
+.botones{
+    float: inherit;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+.btn-copy{
+    float: left;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+}
+#encriptar{
+    padding: 24px;
+    width: 25%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0a3871;
+    cursor: pointer;
+}
+#desencriptar{
+    padding: 24px;
+    width: 25%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfe8;
+    cursor:pointer;
+}
+#copy{
+    padding: 24px;
+    width: 25%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfe8;
+    cursor:pointer;
+    
+}
+#encriptar:hover{
+    opacity: 0.75;
+}
+#desencriptar:hover{
+    opacity: 0.75;
+}
+#copy:hover{
+    opacity: 0.75;
+}
+#palabraEncriptada{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    resize: none;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0a3871;
+    font-size: 20px;
+}
+#encriptada{
+    resize: none;
+    float: right;
+    margin-right: 10%;
+    color: darkred;
+    width: 80%;
+    height: 60%;
+    background-image: url(/imagenes/imagenderecha.png);
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font:bold;
+}
+#imagenderecha{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+textarea:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #bf26d3;
+}
+p{
+    color: red;
+    font-size: x-large;
+}
+#copyright{
+    margin: 30px;
+    text-align: center;
+    font-style: oblique;
+    font-size: xx-large;
+    color: #1a73e8;
+}
+.admiracion{
+    width: 40px;
+    float: inherit;
+}
+footer{
+    text-align: center;    
+}

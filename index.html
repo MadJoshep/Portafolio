@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador del challenge.</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+            <img class="logoimg" src="imagenes/unnamed.png" alt="">
+            <h1 class="titulo">Encriptador con JavaScript.</h1>
+        </div>
+        </header>
+        
+        <form id="informacion" >
+        
+            <div class="izquierdo">
+                <textarea  name="palabraEncriptada" id="palabraEncriptada" cols="30" rows="10" placeholder="Ingrese su palabra:" onkeypress="return(event.charCode >= 97 && event.charCode <= 122)" ></textarea>
+                <p class="mensaje"> <img class="admiracion" src="imagenes/admiracion.png" alt=""> Solo escribir letras en minusculas sin acentos.</p>
+                <div class="botones">
+                <input type="button" id="encriptar" value="Encriptar" onclick= "datosencriptar()">
+                <input type="button" id="desencriptar" value="Descencriptar" onclick="datosdescencriptar()">
+                </div>
+            </div>
+            
+            <div class="derecho">
+                <!--img src="/imagenes/imagenderecha.png" id="imagenderecha" alt=""-->
+                <textarea name="encriptada" id="encriptada" cols="30" rows="10" placeholder="Ningun mensaje fue encontrado!!!" readonly="true"></textarea>
+                <div class="btn-copy">
+                    <input type="button" id="copy" value="Copiar" onclick="copiar()" >
+                    
+                </div>
+            </div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+    <footer>
+        <p id="copyright"> &copy Encriptador hecho por José Arévalo</p>
+    </footer>
+</body>
+</html>
